@@ -1,0 +1,228 @@
+/* Import Fonts From fonts.css File */
+@import url(./fonts.css);
+
+/* Import Variables From variables.css File */
+@import url(./partials/variables.css);
+
+/* Import global.css */
+@import url(./partials/globle.css);
+
+/* Start Navigation */
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem;
+}
+
+.header_area{
+    position: sticky;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* End Navigation */
+
+/* Start Banner Area */
+
+.site-main .site-banner .site-title h3{
+    padding-top: 10%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content:"";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size:4rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.4rem;
+}
+
+.site-main .site-banner .site-title .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+    float: right;
+}
+
+.site-main .site-banner .site-title .site-image{
+    padding-right: 3rem;
+}
+
+/* End Banner Area */
+
+/* Start About Area */
+
+.introduce-text{
+    text-align: right;
+    margin-right: 3rem;
+    margin-top: -3rem;
+}
+
+.about-area .container-fluid .row .about-title{
+    margin-top: 6rem;
+}
+
+.introduce-text-2{
+    margin-left: 30.7rem;
+    font: var(--roboto);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.about-image{
+    margin-top: -12rem;
+    margin-left: 1.2rem;
+}
+
+.about-paragraph{
+    margin-bottom: -4.3rem;
+}
+
+/* End About Area */
+
+/* Start Services Area */
+
+.services-text{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.services-text-2{
+    font: var(--roboto);
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.card-body-1{
+    margin-top: 1.5rem;
+}
+
+/*.card-body-2{
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+    margin-top: -0.6rem;
+}
+
+.services-img-2{
+    margin-left: 25rem;
+    margin-top: -11.7rem;
+}*/
+
+/*.card-body-3{
+    margin-left: 40rem;
+    margin-bottom: 2rem;
+    margin-top: -0.6rem;
+}
+
+.services-img-3{
+    margin-left: 38.7rem;
+    margin-top: -16.70rem;
+}*/
+
+.services-1{
+    width: 220px;
+    height: 300px;
+    margin-top: 2rem;
+    margin-left: 15%;
+    background: rgba(248, 252, 253, 0.973);
+    transition: box-shadow .7s ease;
+}
+
+.services-1:hover{
+    box-shadow: var(--box-shadow);
+}   
+
+.card-text-1{
+    width: 200px;
+    height: 300px;
+    margin-left: 0.6rem;
+}
+
+.services-2{
+    width: 220px;
+    height: 300px;
+    margin-top: -18.8rem;
+    margin-left: 60%;
+    background: rgba(248, 252, 253, 0.973);
+    transition: box-shadow .7s ease;
+}
+
+.services-2:hover{
+    box-shadow: var(--box-shadow);
+} 
+
+.card-text-2{
+    width: 200px;
+    height: 300px;
+    margin-left: 0.6rem;
+}
+
+.services-3{
+    width: 220px;
+    height: 300px;
+    margin-top: -18.8rem;
+    margin-left: 105%;
+    background: rgba(248, 252, 253, 0.973);
+    transition: box-shadow .7s ease;
+}
+
+.services-3:hover{
+    box-shadow: var(--box-shadow);
+} 
+
+.card-text-3{
+    width: 200px;
+    height: 300px;
+    margin-left: 0.6rem;
+}
+
+.services-4{
+    width: 220px;
+    height: 300px;
+    margin-top: -18.8rem;
+    margin-left: 150%;
+    background: rgba(248, 252, 253, 0.973);
+    transition: box-shadow .7s ease;
+}
+
+.services-4:hover{
+    box-shadow: var(--box-shadow);
+} 
+
+.card-text-4{
+    width: 200px;
+    height: 300px;
+    margin-left: 0.6rem;
+}
+
+/* End Services Area */
